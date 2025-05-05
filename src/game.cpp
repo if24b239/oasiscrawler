@@ -401,12 +401,3 @@ void Game::game_won() {
 void Game::game_lost() {
     running = false;
 }
-
-//main function
-int main() {
-
-    Game test;
-    test.startGame();
-
-    return 0;
-}

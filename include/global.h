@@ -46,7 +46,7 @@ struct pos {
 
     pos(int x_start, int y_start) : x(x_start), y(y_start) {}
 
-    bool operator == (const pos& p) {
+    bool operator == (const pos& p) const {
         return x == p.x && y == p.y;
     }
 
